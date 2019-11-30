@@ -24,5 +24,5 @@ Run the bash script
 
 
 ## Contributions are welcome
- Do a fork and add your fav distro post installation setups and other configs.
+ Raise a merge request with your favorite distro post installation setup and other configs.
  Hope this might help someone :)
