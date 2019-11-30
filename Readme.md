@@ -1,6 +1,6 @@
 # Linux Post Installation setup
 
-## Installation
+## Post Ubuntu18.04 Installation
 #### Step 1
 
 Run the bash script
