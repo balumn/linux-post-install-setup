@@ -6,7 +6,7 @@ Manjaro is based on arch and uses pacman as the default package manager.
 #### Running the script 
 Run the bash script 'manjaro.sh'
 
-	sudo bash manjaro.sh 
+	bash manjaro.sh 
 
 
 ## List of applications which will be installed
