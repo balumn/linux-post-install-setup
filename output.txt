@@ -1,752 +1,0 @@
-Get:1 file:/var/opt/amdgpu-pro-local ./ InRelease
-Ign:1 file:/var/opt/amdgpu-pro-local ./ InRelease
-Get:2 file:/var/opt/amdgpu-pro-local ./ Release [816 B]
-Get:2 file:/var/opt/amdgpu-pro-local ./ Release [816 B]
-Get:3 file:/var/opt/amdgpu-pro-local ./ Release.gpg
-Ign:3 file:/var/opt/amdgpu-pro-local ./ Release.gpg
-Hit:4 https://dl.yarnpkg.com/debian stable InRelease
-Hit:5 http://ppa.launchpad.net/daniel-marynicz/filemanager-actions/ubuntu bionic InRelease
-Hit:6 http://packages.microsoft.com/repos/vscode stable InRelease
-Hit:7 http://us.archive.ubuntu.com/ubuntu bionic InRelease
-Hit:8 http://ppa.launchpad.net/fish-shell/nightly-master/ubuntu bionic InRelease
-Hit:9 http://us.archive.ubuntu.com/ubuntu bionic-security InRelease
-Hit:10 http://linux.teamviewer.com/deb stable InRelease
-Ign:11 http://dl.google.com/linux/chrome/deb stable InRelease
-Hit:12 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease
-Hit:13 http://ppa.launchpad.net/noobslab/apps/ubuntu bionic InRelease
-Hit:14 http://apt.pop-os.org/proprietary bionic InRelease
-Hit:15 http://repository.spotify.com stable InRelease
-Hit:17 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease
-Hit:18 https://download.sublimetext.com apt/stable/ InRelease
-Hit:19 http://dl.google.com/linux/chrome/deb stable Release
-Hit:20 https://deb.nodesource.com/node_8.x bionic InRelease
-Hit:21 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic InRelease
-Hit:23 https://repo.skype.com/deb stable InRelease
-Hit:24 http://ppa.launchpad.net/persepolis/ppa/ubuntu bionic InRelease
-Hit:26 http://ppa.launchpad.net/system76/pop/ubuntu bionic InRelease
-Hit:16 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
-Hit:22 https://packages.gitlab.com/runner/gitlab-runner/ubuntu bionic InRelease
-Reading package lists...
-Building dependency tree...
-Reading state information...
-73 packages can be upgraded. Run 'apt list --upgradable' to see them.
-Reading package lists...
-Building dependency tree...
-Reading state information...
-Calculating upgrade...
-The following NEW packages will be installed:
-  libpop-upgrade-gtk pop-upgrade
-The following packages will be upgraded:
-  amd64-microcode code fish fish-common gnome-control-center libdrm-amdgpu1
-  libdrm-amdgpu1:i386 libdrm-common libdrm-intel1 libdrm-intel1:i386
-  libdrm-nouveau2 libdrm-nouveau2:i386 libdrm-radeon1 libdrm-radeon1:i386
-  libdrm2 libdrm2:i386 libegl-mesa0 libgbm1 libgl1-mesa-dri
-  libgl1-mesa-dri:i386 libgl1-mesa-glx libgl1-mesa-glx:i386 libglapi-mesa
-  libglapi-mesa:i386 libglx-mesa0 libglx-mesa0:i386 libllvm9 libllvm9:i386
-  libnss-myhostname libnss-systemd libnss3 libosmesa6 libosmesa6:i386
-  libpam-systemd libpython3.6 libpython3.6-dev libpython3.6-minimal
-  libpython3.6-stdlib libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5
-  libqt5opengl5 libqt5printsupport5 libqt5sql5 libqt5sql5-sqlite libqt5test5
-  libqt5widgets5 libqt5xml5 libsystemd0 libsystemd0:i386 libudev1
-  libudev1:i386 libvpx5 libxatracker2 mesa-va-drivers mesa-vdpau-drivers
-  python3-psutil python3.6 python3.6-dev python3.6-minimal python3.6-venv
-  qt5-gtk-platformtheme snapd systemd systemd-sysv ubuntu-drivers-common udev
-  virtualbox virtualbox-dkms virtualbox-qt xserver-xorg-video-intel yarn
-73 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
-Need to get 231 MB/232 MB of archives.
-After this operation, 13.6 MB of additional disk space will be used.
-Get:1 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libdrm2 i386 2.4.100+git1911290630.cd77f1~oibaf~b [43.4 kB]
-Get:2 http://packages.microsoft.com/repos/vscode stable/main amd64 code amd64 1.40.2-1574694120 [56.6 MB]
-Get:3 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libnss-systemd amd64 237-3ubuntu10.33 [106 kB]
-Get:4 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libdrm2 amd64 2.4.100+git1911290630.cd77f1~oibaf~b [40.6 kB]
-Get:5 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libudev1 amd64 237-3ubuntu10.33 [54.6 kB]
-Get:6 http://ppa.launchpad.net/system76/pop/ubuntu bionic/main amd64 pop-upgrade amd64 0.1.0~1573581345~18.04~253a2c1 [2,090 kB]
-Get:7 http://us.archive.ubuntu.com/ubuntu bionic-updates/main i386 libudev1 i386 237-3ubuntu10.33 [58.2 kB]
-Get:8 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 udev amd64 237-3ubuntu10.33 [1,102 kB]
-Get:9 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libnss-myhostname amd64 237-3ubuntu10.33 [34.9 kB]
-Get:10 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpam-systemd amd64 237-3ubuntu10.33 [108 kB]
-Get:11 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 systemd amd64 237-3ubuntu10.33 [2,905 kB]
-Get:12 http://ppa.launchpad.net/system76/pop/ubuntu bionic/main amd64 libpop-upgrade-gtk amd64 0.1.0~1573581345~18.04~253a2c1 [278 kB]
-Get:13 http://us.archive.ubuntu.com/ubuntu bionic-updates/main i386 libsystemd0 i386 237-3ubuntu10.33 [222 kB]
-Get:14 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsystemd0 amd64 237-3ubuntu10.33 [205 kB]
-Get:15 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 systemd-sysv amd64 237-3ubuntu10.33 [12.5 kB]
-Get:16 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python3.6-venv amd64 3.6.9-1~18.04 [6,180 B]
-Get:17 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3.6-dev amd64 3.6.9-1~18.04 [508 kB]
-Get:18 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3.6-dev amd64 3.6.9-1~18.04 [44.8 MB]
-Get:1 file:/var/opt/amdgpu-pro-local ./ InRelease
-Ign:1 file:/var/opt/amdgpu-pro-local ./ InRelease
-Get:2 file:/var/opt/amdgpu-pro-local ./ Release [816 B]
-Get:2 file:/var/opt/amdgpu-pro-local ./ Release [816 B]
-Get:3 file:/var/opt/amdgpu-pro-local ./ Release.gpg
-Ign:3 file:/var/opt/amdgpu-pro-local ./ Release.gpg
-Hit:4 https://dl.yarnpkg.com/debian stable InRelease
-Hit:5 http://ppa.launchpad.net/daniel-marynicz/filemanager-actions/ubuntu bionic InRelease
-Hit:6 http://linux.teamviewer.com/deb stable InRelease
-Hit:7 http://ppa.launchpad.net/fish-shell/nightly-master/ubuntu bionic InRelease
-Ign:8 http://dl.google.com/linux/chrome/deb stable InRelease
-Hit:9 https://download.sublimetext.com apt/stable/ InRelease
-Hit:10 http://ppa.launchpad.net/noobslab/apps/ubuntu bionic InRelease
-Hit:11 http://dl.google.com/linux/chrome/deb stable Release
-Hit:12 https://deb.nodesource.com/node_8.x bionic InRelease
-Hit:14 https://repo.skype.com/deb stable InRelease
-Hit:15 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic InRelease
-Hit:16 http://us.archive.ubuntu.com/ubuntu bionic InRelease
-Hit:18 http://ppa.launchpad.net/persepolis/ppa/ubuntu bionic InRelease
-Hit:19 http://packages.microsoft.com/repos/vscode stable InRelease
-Hit:20 http://us.archive.ubuntu.com/ubuntu bionic-security InRelease
-Hit:21 http://apt.pop-os.org/proprietary bionic InRelease
-Hit:22 http://repository.spotify.com stable InRelease
-Hit:23 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease
-Hit:24 http://ppa.launchpad.net/system76/pop/ubuntu bionic InRelease
-Hit:25 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease
-Hit:13 https://packages.gitlab.com/runner/gitlab-runner/ubuntu bionic InRelease
-Hit:26 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
-Reading package lists...
-Building dependency tree...
-Reading state information...
-73 packages can be upgraded. Run 'apt list --upgradable' to see them.
-Reading package lists...
-Building dependency tree...
-Reading state information...
-Calculating upgrade...
-The following NEW packages will be installed:
-  libpop-upgrade-gtk pop-upgrade
-The following packages will be upgraded:
-  amd64-microcode code fish fish-common gnome-control-center libdrm-amdgpu1
-  libdrm-amdgpu1:i386 libdrm-common libdrm-intel1 libdrm-intel1:i386
-  libdrm-nouveau2 libdrm-nouveau2:i386 libdrm-radeon1 libdrm-radeon1:i386
-  libdrm2 libdrm2:i386 libegl-mesa0 libgbm1 libgl1-mesa-dri
-  libgl1-mesa-dri:i386 libgl1-mesa-glx libgl1-mesa-glx:i386 libglapi-mesa
-  libglapi-mesa:i386 libglx-mesa0 libglx-mesa0:i386 libllvm9 libllvm9:i386
-  libnss-myhostname libnss-systemd libnss3 libosmesa6 libosmesa6:i386
-  libpam-systemd libpython3.6 libpython3.6-dev libpython3.6-minimal
-  libpython3.6-stdlib libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5
-  libqt5opengl5 libqt5printsupport5 libqt5sql5 libqt5sql5-sqlite libqt5test5
-  libqt5widgets5 libqt5xml5 libsystemd0 libsystemd0:i386 libudev1
-  libudev1:i386 libvpx5 libxatracker2 mesa-va-drivers mesa-vdpau-drivers
-  python3-psutil python3.6 python3.6-dev python3.6-minimal python3.6-venv
-  qt5-gtk-platformtheme snapd systemd systemd-sysv ubuntu-drivers-common udev
-  virtualbox virtualbox-dkms virtualbox-qt xserver-xorg-video-intel yarn
-73 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
-Need to get 224 MB/232 MB of archives.
-After this operation, 13.6 MB of additional disk space will be used.
-Get:1 http://ppa.launchpad.net/system76/pop/ubuntu bionic/main amd64 gnome-control-center amd64 1:3.28.2-0ubuntu0.18.04.5pop1~1573581610~18.04~640e23a [1,628 kB]
-Get:2 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3.6-dev amd64 3.6.9-1~18.04 [44.8 MB]
-Get:3 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libdrm-amdgpu1 i386 2.4.100+git1911290630.cd77f1~oibaf~b [31.2 kB]
-Get:4 http://packages.microsoft.com/repos/vscode stable/main amd64 code amd64 1.40.2-1574694120 [56.6 MB]
-Get:5 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libdrm-amdgpu1 amd64 2.4.100+git1911290630.cd77f1~oibaf~b [28.1 kB]
-Get:6 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libdrm-intel1 i386 2.4.100+git1911290630.cd77f1~oibaf~b [73.6 kB]
-Get:7 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libdrm-intel1 amd64 2.4.100+git1911290630.cd77f1~oibaf~b [69.9 kB]
-Get:8 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libdrm-nouveau2 amd64 2.4.100+git1911290630.cd77f1~oibaf~b [26.4 kB]
-Get:9 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libdrm-nouveau2 i386 2.4.100+git1911290630.cd77f1~oibaf~b [28.1 kB]
-Get:10 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libdrm-radeon1 amd64 2.4.100+git1911290630.cd77f1~oibaf~b [31.6 kB]
-Get:11 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libdrm-radeon1 i386 2.4.100+git1911290630.cd77f1~oibaf~b [33.0 kB]
-Get:12 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libegl-mesa0 amd64 20.0~git1911291930.73783e~oibaf~b [147 kB]
-Get:13 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libgbm1 amd64 20.0~git1911291930.73783e~oibaf~b [77.8 kB]
-Get:14 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libllvm9 i386 1:9.0.1~+rc1-1~exp1~oibaf~b [14.9 MB]
-Get:15 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libllvm9 amd64 1:9.0.1~+rc1-1~exp1~oibaf~b [14.8 MB]
-Get:16 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libosmesa6 amd64 20.0~git1911291930.73783e~oibaf~b [2,551 kB]
-Get:17 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libosmesa6 i386 20.0~git1911291930.73783e~oibaf~b [2,637 kB]
-Get:18 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libgl1-mesa-dri i386 20.0~git1911291930.73783e~oibaf~b [9,295 kB]
-Get:19 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libgl1-mesa-dri amd64 20.0~git1911291930.73783e~oibaf~b [9,026 kB]
-Get:1 file:/var/opt/amdgpu-pro-local ./ InRelease
-Ign:1 file:/var/opt/amdgpu-pro-local ./ InRelease
-Get:2 file:/var/opt/amdgpu-pro-local ./ Release [816 B]
-Get:2 file:/var/opt/amdgpu-pro-local ./ Release [816 B]
-Get:3 file:/var/opt/amdgpu-pro-local ./ Release.gpg
-Ign:3 file:/var/opt/amdgpu-pro-local ./ Release.gpg
-Hit:4 https://dl.yarnpkg.com/debian stable InRelease
-Ign:5 http://dl.google.com/linux/chrome/deb stable InRelease
-Hit:6 http://ppa.launchpad.net/daniel-marynicz/filemanager-actions/ubuntu bionic InRelease
-Hit:7 http://packages.microsoft.com/repos/vscode stable InRelease
-Hit:8 http://dl.google.com/linux/chrome/deb stable Release
-Hit:9 http://us.archive.ubuntu.com/ubuntu bionic InRelease
-Hit:10 http://linux.teamviewer.com/deb stable InRelease
-Hit:11 http://ppa.launchpad.net/fish-shell/nightly-master/ubuntu bionic InRelease
-Hit:12 http://apt.pop-os.org/proprietary bionic InRelease
-Hit:13 http://us.archive.ubuntu.com/ubuntu bionic-security InRelease
-Hit:15 http://repository.spotify.com stable InRelease
-Hit:16 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease
-Hit:17 https://download.sublimetext.com apt/stable/ InRelease
-Hit:19 http://ppa.launchpad.net/noobslab/apps/ubuntu bionic InRelease
-Hit:20 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease
-Hit:22 https://repo.skype.com/deb stable InRelease
-Hit:23 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic InRelease
-Hit:24 http://ppa.launchpad.net/persepolis/ppa/ubuntu bionic InRelease
-Hit:25 https://deb.nodesource.com/node_8.x bionic InRelease
-Hit:26 http://ppa.launchpad.net/system76/pop/ubuntu bionic InRelease
-Hit:18 https://packages.gitlab.com/runner/gitlab-runner/ubuntu bionic InRelease
-Hit:21 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
-Reading package lists...
-Building dependency tree...
-Reading state information...
-73 packages can be upgraded. Run 'apt list --upgradable' to see them.
-Reading package lists...
-Building dependency tree...
-Reading state information...
-Calculating upgrade...
-The following NEW packages will be installed:
-  libpop-upgrade-gtk pop-upgrade
-The following packages will be upgraded:
-  amd64-microcode code fish fish-common gnome-control-center libdrm-amdgpu1
-  libdrm-amdgpu1:i386 libdrm-common libdrm-intel1 libdrm-intel1:i386
-  libdrm-nouveau2 libdrm-nouveau2:i386 libdrm-radeon1 libdrm-radeon1:i386
-  libdrm2 libdrm2:i386 libegl-mesa0 libgbm1 libgl1-mesa-dri
-  libgl1-mesa-dri:i386 libgl1-mesa-glx libgl1-mesa-glx:i386 libglapi-mesa
-  libglapi-mesa:i386 libglx-mesa0 libglx-mesa0:i386 libllvm9 libllvm9:i386
-  libnss-myhostname libnss-systemd libnss3 libosmesa6 libosmesa6:i386
-  libpam-systemd libpython3.6 libpython3.6-dev libpython3.6-minimal
-  libpython3.6-stdlib libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5
-  libqt5opengl5 libqt5printsupport5 libqt5sql5 libqt5sql5-sqlite libqt5test5
-  libqt5widgets5 libqt5xml5 libsystemd0 libsystemd0:i386 libudev1
-  libudev1:i386 libvpx5 libxatracker2 mesa-va-drivers mesa-vdpau-drivers
-  python3-psutil python3.6 python3.6-dev python3.6-minimal python3.6-venv
-  qt5-gtk-platformtheme snapd systemd systemd-sysv ubuntu-drivers-common udev
-  virtualbox virtualbox-dkms virtualbox-qt xserver-xorg-video-intel yarn
-73 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
-Need to get 177 MB/232 MB of archives.
-After this operation, 13.6 MB of additional disk space will be used.
-Get:1 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libgl1-mesa-dri amd64 20.0~git1911291930.73783e~oibaf~b [9,026 kB]
-Get:2 http://packages.microsoft.com/repos/vscode stable/main amd64 code amd64 1.40.2-1574694120 [56.6 MB]
-Get:3 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3.6-dev amd64 3.6.9-1~18.04 [44.8 MB]
-Get:4 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libglx-mesa0 amd64 20.0~git1911291930.73783e~oibaf~b [190 kB]
-Get:5 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libglx-mesa0 i386 20.0~git1911291930.73783e~oibaf~b [198 kB]
-Get:6 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libglapi-mesa i386 20.0~git1911291930.73783e~oibaf~b [78.8 kB]
-Get:7 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libglapi-mesa amd64 20.0~git1911291930.73783e~oibaf~b [78.9 kB]
-Get:8 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libgl1-mesa-glx amd64 20.0~git1911291930.73783e~oibaf~b [58.5 kB]
-Get:9 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main i386 libgl1-mesa-glx i386 20.0~git1911291930.73783e~oibaf~b [58.5 kB]
-Get:10 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 libxatracker2 amd64 20.0~git1911291930.73783e~oibaf~b [1,406 kB]
-Get:11 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 mesa-va-drivers amd64 20.0~git1911291930.73783e~oibaf~b [2,206 kB]
-Get:12 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 mesa-vdpau-drivers amd64 20.0~git1911291930.73783e~oibaf~b [2,328 kB]
-Get:13 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic/main amd64 xserver-xorg-video-intel amd64 2:2.99.917+git1911271930.0867ee~oibaf~b [1,656 kB]
-Get:14 http://ppa.launchpad.net/fish-shell/nightly-master/ubuntu bionic/main amd64 fish amd64 3.0.2-1863-g87e24db5-1~bionic [927 kB]
-Get:15 http://ppa.launchpad.net/fish-shell/nightly-master/ubuntu bionic/main amd64 fish-common all 3.0.2-1863-g87e24db5-1~bionic [1,363 kB]
-Get:16 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3.6 amd64 3.6.9-1~18.04 [1,414 kB]
-Get:17 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3.6 amd64 3.6.9-1~18.04 [203 kB]
-Get:18 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3.6-stdlib amd64 3.6.9-1~18.04 [1,709 kB]
-Get:19 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3.6-minimal amd64 3.6.9-1~18.04 [1,610 kB]
-Get:20 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3.6-minimal amd64 3.6.9-1~18.04 [533 kB]
-Get:21 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 ubuntu-drivers-common amd64 1:0.5.2.4 [43.4 kB]
-Get:22 http://us.archive.ubuntu.com/ubuntu bionic-security/main amd64 libnss3 amd64 2:3.35-2ubuntu2.5 [1,136 kB]
-Get:23 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5core5a amd64 5.9.5+dfsg-0ubuntu2.4 [2,036 kB]
-Get:24 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5dbus5 amd64 5.9.5+dfsg-0ubuntu2.4 [196 kB]
-Get:25 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 qt5-gtk-platformtheme amd64 5.9.5+dfsg-0ubuntu2.4 [117 kB]
-Get:26 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5network5 amd64 5.9.5+dfsg-0ubuntu2.4 [634 kB]
-Get:27 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5gui5 amd64 5.9.5+dfsg-0ubuntu2.4 [2,569 kB]
-Get:28 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5widgets5 amd64 5.9.5+dfsg-0ubuntu2.4 [2,205 kB]
-Get:29 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5opengl5 amd64 5.9.5+dfsg-0ubuntu2.4 [132 kB]
-Get:30 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5printsupport5 amd64 5.9.5+dfsg-0ubuntu2.4 [178 kB]
-Get:31 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5sql5 amd64 5.9.5+dfsg-0ubuntu2.4 [115 kB]
-Get:32 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5sql5-sqlite amd64 5.9.5+dfsg-0ubuntu2.4 [40.2 kB]
-Get:33 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5test5 amd64 5.9.5+dfsg-0ubuntu2.4 [98.2 kB]
-Get:34 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libqt5xml5 amd64 5.9.5+dfsg-0ubuntu2.4 [99.5 kB]
-Get:35 http://us.archive.ubuntu.com/ubuntu bionic-security/main amd64 libvpx5 amd64 1.7.0-3ubuntu0.18.04.1 [796 kB]
-Get:36 http://us.archive.ubuntu.com/ubuntu bionic-security/main amd64 python3-psutil amd64 5.4.2-1ubuntu0.1 [136 kB]
-Get:37 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 snapd amd64 2.42.1+18.04 [13.7 MB]
-Get:38 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 virtualbox-qt amd64 5.2.34-dfsg-0~ubuntu18.04.1 [8,600 kB]
-Get:39 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 virtualbox-dkms all 5.2.34-dfsg-0~ubuntu18.04.1 [663 kB]
-Get:40 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 virtualbox amd64 5.2.34-dfsg-0~ubuntu18.04.1 [17.3 MB]
-Get:41 http://us.archive.ubuntu.com/ubuntu bionic-security/main amd64 amd64-microcode amd64 3.20191021.1+really3.20181128.1~ubuntu0.18.04.1 [31.6 kB]
-Preconfiguring packages ...
-Fetched 128 MB in 1min 5s (1,950 kB/s)
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 340442 files and directories currently installed.)
-Preparing to unpack .../libnss-systemd_237-3ubuntu10.33_amd64.deb ...
-Unpacking libnss-systemd:amd64 (237-3ubuntu10.33) over (237-3ubuntu10.31) ...
-Preparing to unpack .../libudev1_237-3ubuntu10.33_i386.deb ...
-De-configuring libudev1:amd64 (237-3ubuntu10.31) ...
-Unpacking libudev1:i386 (237-3ubuntu10.33) over (237-3ubuntu10.31) ...
-Preparing to unpack .../libudev1_237-3ubuntu10.33_amd64.deb ...
-Unpacking libudev1:amd64 (237-3ubuntu10.33) over (237-3ubuntu10.31) ...
-Setting up libudev1:amd64 (237-3ubuntu10.33) ...
-Setting up libudev1:i386 (237-3ubuntu10.33) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 340442 files and directories currently installed.)
-Preparing to unpack .../0-udev_237-3ubuntu10.33_amd64.deb ...
-Unpacking udev (237-3ubuntu10.33) over (237-3ubuntu10.31) ...
-Preparing to unpack .../1-libnss-myhostname_237-3ubuntu10.33_amd64.deb ...
-Unpacking libnss-myhostname:amd64 (237-3ubuntu10.33) over (237-3ubuntu10.31) ...
-Preparing to unpack .../2-libpam-systemd_237-3ubuntu10.33_amd64.deb ...
-Unpacking libpam-systemd:amd64 (237-3ubuntu10.33) over (237-3ubuntu10.31) ...
-Preparing to unpack .../3-systemd_237-3ubuntu10.33_amd64.deb ...
-Unpacking systemd (237-3ubuntu10.33) over (237-3ubuntu10.31) ...
-Preparing to unpack .../4-libsystemd0_237-3ubuntu10.33_amd64.deb ...
-De-configuring libsystemd0:i386 (237-3ubuntu10.31) ...
-Unpacking libsystemd0:amd64 (237-3ubuntu10.33) over (237-3ubuntu10.31) ...
-Preparing to unpack .../5-libsystemd0_237-3ubuntu10.33_i386.deb ...
-Unpacking libsystemd0:i386 (237-3ubuntu10.33) over (237-3ubuntu10.31) ...
-Setting up libsystemd0:amd64 (237-3ubuntu10.33) ...
-Setting up libsystemd0:i386 (237-3ubuntu10.33) ...
-Setting up systemd (237-3ubuntu10.33) ...
-Installing new version of config file /etc/dhcp/dhclient-enter-hooks.d/resolved ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 340442 files and directories currently installed.)
-Preparing to unpack .../00-systemd-sysv_237-3ubuntu10.33_amd64.deb ...
-Unpacking systemd-sysv (237-3ubuntu10.33) over (237-3ubuntu10.31) ...
-Preparing to unpack .../01-python3.6-venv_3.6.9-1~18.04_amd64.deb ...
-Unpacking python3.6-venv (3.6.9-1~18.04) over (3.6.8-1~18.04.3) ...
-Preparing to unpack .../02-python3.6-dev_3.6.9-1~18.04_amd64.deb ...
-Unpacking python3.6-dev (3.6.9-1~18.04) over (3.6.8-1~18.04.3) ...
-Preparing to unpack .../03-libpython3.6-dev_3.6.9-1~18.04_amd64.deb ...
-Unpacking libpython3.6-dev:amd64 (3.6.9-1~18.04) over (3.6.8-1~18.04.3) ...
-Preparing to unpack .../04-libpython3.6_3.6.9-1~18.04_amd64.deb ...
-Unpacking libpython3.6:amd64 (3.6.9-1~18.04) over (3.6.8-1~18.04.3) ...
-Preparing to unpack .../05-python3.6_3.6.9-1~18.04_amd64.deb ...
-Unpacking python3.6 (3.6.9-1~18.04) over (3.6.8-1~18.04.3) ...
-Preparing to unpack .../06-libpython3.6-stdlib_3.6.9-1~18.04_amd64.deb ...
-Unpacking libpython3.6-stdlib:amd64 (3.6.9-1~18.04) over (3.6.8-1~18.04.3) ...
-Preparing to unpack .../07-python3.6-minimal_3.6.9-1~18.04_amd64.deb ...
-Unpacking python3.6-minimal (3.6.9-1~18.04) over (3.6.8-1~18.04.3) ...
-Preparing to unpack .../08-libpython3.6-minimal_3.6.9-1~18.04_amd64.deb ...
-Unpacking libpython3.6-minimal:amd64 (3.6.9-1~18.04) over (3.6.8-1~18.04.3) ...
-Preparing to unpack .../09-libdrm-common_2.4.100+git1911290630.cd77f1~oibaf~b_all.deb ...
-Unpacking libdrm-common (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../10-libdrm2_2.4.100+git1911290630.cd77f1~oibaf~b_amd64.deb ...
-De-configuring libdrm2:i386 (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Unpacking libdrm2:amd64 (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../11-libdrm2_2.4.100+git1911290630.cd77f1~oibaf~b_i386.deb ...
-Unpacking libdrm2:i386 (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../12-ubuntu-drivers-common_1%3a0.5.2.4_amd64.deb ...
-Unpacking ubuntu-drivers-common (1:0.5.2.4) over (1:0.5.2.3) ...
-Preparing to unpack .../13-libnss3_2%3a3.35-2ubuntu2.5_amd64.deb ...
-Unpacking libnss3:amd64 (2:3.35-2ubuntu2.5) over (2:3.35-2ubuntu2.3) ...
-Preparing to unpack .../14-code_1.40.2-1574694120_amd64.deb ...
-Unpacking code (1.40.2-1574694120) over (1.40.0-1573064499) ...
-Selecting previously unselected package pop-upgrade.
-Preparing to unpack .../15-pop-upgrade_0.1.0~1573581345~18.04~253a2c1_amd64.deb ...
-Unpacking pop-upgrade (0.1.0~1573581345~18.04~253a2c1) ...
-Selecting previously unselected package libpop-upgrade-gtk.
-Preparing to unpack .../16-libpop-upgrade-gtk_0.1.0~1573581345~18.04~253a2c1_amd64.deb ...
-Unpacking libpop-upgrade-gtk (0.1.0~1573581345~18.04~253a2c1) ...
-Preparing to unpack .../17-gnome-control-center_1%3a3.28.2-0ubuntu0.18.04.5pop1~1573581610~18.04~640e23a_amd64.deb ...
-Unpacking gnome-control-center (1:3.28.2-0ubuntu0.18.04.5pop1~1573581610~18.04~640e23a) over (1:3.28.2-0ubuntu0.18.04.5pop1~1565997431~18.04~7b797dc) ...
-Preparing to unpack .../18-libdrm-amdgpu1_2.4.100+git1911290630.cd77f1~oibaf~b_amd64.deb ...
-De-configuring libdrm-amdgpu1:i386 (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Unpacking libdrm-amdgpu1:amd64 (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../19-libdrm-amdgpu1_2.4.100+git1911290630.cd77f1~oibaf~b_i386.deb ...
-Unpacking libdrm-amdgpu1:i386 (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../20-libdrm-intel1_2.4.100+git1911290630.cd77f1~oibaf~b_amd64.deb ...
-De-configuring libdrm-intel1:i386 (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Unpacking libdrm-intel1:amd64 (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../21-libdrm-intel1_2.4.100+git1911290630.cd77f1~oibaf~b_i386.deb ...
-Unpacking libdrm-intel1:i386 (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../22-libdrm-nouveau2_2.4.100+git1911290630.cd77f1~oibaf~b_amd64.deb ...
-De-configuring libdrm-nouveau2:i386 (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Unpacking libdrm-nouveau2:amd64 (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../23-libdrm-nouveau2_2.4.100+git1911290630.cd77f1~oibaf~b_i386.deb ...
-Unpacking libdrm-nouveau2:i386 (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../24-libdrm-radeon1_2.4.100+git1911290630.cd77f1~oibaf~b_amd64.deb ...
-De-configuring libdrm-radeon1:i386 (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Unpacking libdrm-radeon1:amd64 (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../25-libdrm-radeon1_2.4.100+git1911290630.cd77f1~oibaf~b_i386.deb ...
-Unpacking libdrm-radeon1:i386 (2.4.100+git1911290630.cd77f1~oibaf~b) over (2.4.100+git1911230630.9d4889~oibaf~b) ...
-Preparing to unpack .../26-libegl-mesa0_20.0~git1911291930.73783e~oibaf~b_amd64.deb ...
-Unpacking libegl-mesa0:amd64 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../27-libgbm1_20.0~git1911291930.73783e~oibaf~b_amd64.deb ...
-Unpacking libgbm1:amd64 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../28-libllvm9_1%3a9.0.1~+rc1-1~exp1~oibaf~b_amd64.deb ...
-De-configuring libllvm9:i386 (1:9-1~oibaf~b) ...
-Unpacking libllvm9:amd64 (1:9.0.1~+rc1-1~exp1~oibaf~b) over (1:9-1~oibaf~b) ...
-Preparing to unpack .../29-libllvm9_1%3a9.0.1~+rc1-1~exp1~oibaf~b_i386.deb ...
-Unpacking libllvm9:i386 (1:9.0.1~+rc1-1~exp1~oibaf~b) over (1:9-1~oibaf~b) ...
-Preparing to unpack .../30-libosmesa6_20.0~git1911291930.73783e~oibaf~b_i386.deb ...
-De-configuring libosmesa6:amd64 (20.0~git1911231930.a2689e~oibaf~b) ...
-Unpacking libosmesa6:i386 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../31-libosmesa6_20.0~git1911291930.73783e~oibaf~b_amd64.deb ...
-Unpacking libosmesa6:amd64 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../32-libgl1-mesa-dri_20.0~git1911291930.73783e~oibaf~b_amd64.deb ...
-De-configuring libgl1-mesa-dri:i386 (20.0~git1911231930.a2689e~oibaf~b) ...
-Unpacking libgl1-mesa-dri:amd64 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../33-libgl1-mesa-dri_20.0~git1911291930.73783e~oibaf~b_i386.deb ...
-Unpacking libgl1-mesa-dri:i386 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../34-libglx-mesa0_20.0~git1911291930.73783e~oibaf~b_i386.deb ...
-De-configuring libglx-mesa0:amd64 (20.0~git1911231930.a2689e~oibaf~b) ...
-Unpacking libglx-mesa0:i386 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../35-libglx-mesa0_20.0~git1911291930.73783e~oibaf~b_amd64.deb ...
-Unpacking libglx-mesa0:amd64 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../36-libglapi-mesa_20.0~git1911291930.73783e~oibaf~b_amd64.deb ...
-De-configuring libglapi-mesa:i386 (20.0~git1911231930.a2689e~oibaf~b) ...
-Unpacking libglapi-mesa:amd64 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../37-libglapi-mesa_20.0~git1911291930.73783e~oibaf~b_i386.deb ...
-Unpacking libglapi-mesa:i386 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../38-libgl1-mesa-glx_20.0~git1911291930.73783e~oibaf~b_amd64.deb ...
-De-configuring libgl1-mesa-glx:i386 (20.0~git1911231930.a2689e~oibaf~b) ...
-Unpacking libgl1-mesa-glx:amd64 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../39-libgl1-mesa-glx_20.0~git1911291930.73783e~oibaf~b_i386.deb ...
-Unpacking libgl1-mesa-glx:i386 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../40-libqt5core5a_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5core5a:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../41-libqt5dbus5_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5dbus5:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../42-qt5-gtk-platformtheme_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking qt5-gtk-platformtheme:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../43-libqt5network5_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5network5:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../44-libqt5gui5_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5gui5:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../45-libqt5widgets5_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5widgets5:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../46-libqt5opengl5_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5opengl5:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../47-libqt5printsupport5_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5printsupport5:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../48-libqt5sql5_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5sql5:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../49-libqt5sql5-sqlite_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5sql5-sqlite:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../50-libqt5test5_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5test5:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../51-libqt5xml5_5.9.5+dfsg-0ubuntu2.4_amd64.deb ...
-Unpacking libqt5xml5:amd64 (5.9.5+dfsg-0ubuntu2.4) over (5.9.5+dfsg-0ubuntu2.3) ...
-Preparing to unpack .../52-libvpx5_1.7.0-3ubuntu0.18.04.1_amd64.deb ...
-Unpacking libvpx5:amd64 (1.7.0-3ubuntu0.18.04.1) over (1.7.0-3) ...
-Preparing to unpack .../53-libxatracker2_20.0~git1911291930.73783e~oibaf~b_amd64.deb ...
-Unpacking libxatracker2:amd64 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../54-mesa-va-drivers_20.0~git1911291930.73783e~oibaf~b_amd64.deb ...
-Unpacking mesa-va-drivers:amd64 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../55-mesa-vdpau-drivers_20.0~git1911291930.73783e~oibaf~b_amd64.deb ...
-Unpacking mesa-vdpau-drivers:amd64 (20.0~git1911291930.73783e~oibaf~b) over (20.0~git1911231930.a2689e~oibaf~b) ...
-Preparing to unpack .../56-python3-psutil_5.4.2-1ubuntu0.1_amd64.deb ...
-Unpacking python3-psutil (5.4.2-1ubuntu0.1) over (5.4.2-1) ...
-Preparing to unpack .../57-snapd_2.42.1+18.04_amd64.deb ...
-Unpacking snapd (2.42.1+18.04) over (2.40+18.04) ...
-Preparing to unpack .../58-virtualbox-qt_5.2.34-dfsg-0~ubuntu18.04.1_amd64.deb ...
-Unpacking virtualbox-qt (5.2.34-dfsg-0~ubuntu18.04.1) over (5.2.32-dfsg-0~ubuntu18.04.1) ...
-Preparing to unpack .../59-virtualbox-dkms_5.2.34-dfsg-0~ubuntu18.04.1_all.deb ...
-
--------- Uninstall Beginning --------
-Module:  virtualbox
-Version: 5.2.32
-Kernel:  5.0.0-36-generic (x86_64)
--------------------------------------
-
-Status: Before uninstall, this module version was ACTIVE on this kernel.
-
-vboxdrv.ko:
- - Uninstallation
-   - Deleting from: /lib/modules/5.0.0-36-generic/updates/dkms/
- - Original module
-   - No original module was found for this module on this kernel.
-   - Use the dkms install command to reinstall any previous module version.
-
-
-vboxnetadp.ko:
- - Uninstallation
-   - Deleting from: /lib/modules/5.0.0-36-generic/updates/dkms/
- - Original module
-   - No original module was found for this module on this kernel.
-   - Use the dkms install command to reinstall any previous module version.
-
-
-vboxnetflt.ko:
- - Uninstallation
-   - Deleting from: /lib/modules/5.0.0-36-generic/updates/dkms/
- - Original module
-   - No original module was found for this module on this kernel.
-   - Use the dkms install command to reinstall any previous module version.
-
-
-vboxpci.ko:
- - Uninstallation
-   - Deleting from: /lib/modules/5.0.0-36-generic/updates/dkms/
- - Original module
-   - No original module was found for this module on this kernel.
-   - Use the dkms install command to reinstall any previous module version.
-
-depmod.....
-
-DKMS: uninstall completed.
-
-------------------------------
-Deleting module version: 5.2.32
-completely from the DKMS tree.
-------------------------------
-Done.
-Unpacking virtualbox-dkms (5.2.34-dfsg-0~ubuntu18.04.1) over (5.2.32-dfsg-0~ubuntu18.04.1) ...
-Preparing to unpack .../60-virtualbox_5.2.34-dfsg-0~ubuntu18.04.1_amd64.deb ...
-Unpacking virtualbox (5.2.34-dfsg-0~ubuntu18.04.1) over (5.2.32-dfsg-0~ubuntu18.04.1) ...
-Preparing to unpack .../61-xserver-xorg-video-intel_2%3a2.99.917+git1911271930.0867ee~oibaf~b_amd64.deb ...
-Unpacking xserver-xorg-video-intel (2:2.99.917+git1911271930.0867ee~oibaf~b) over (2:2.99.917+git1911171930.e628d2~oibaf~b) ...
-Preparing to unpack .../62-yarn_1.19.2-1_all.deb ...
-Unpacking yarn (1.19.2-1) over (1.19.1-1) ...
-Preparing to unpack .../63-amd64-microcode_3.20191021.1+really3.20181128.1~ubuntu0.18.04.1_amd64.deb ...
-Unpacking amd64-microcode (3.20191021.1+really3.20181128.1~ubuntu0.18.04.1) over (3.20191021.1ubuntu0.18.04.2) ...
-Preparing to unpack .../64-fish_3.0.2-1863-g87e24db5-1~bionic_amd64.deb ...
-Unpacking fish (3.0.2-1863-g87e24db5-1~bionic) over (3.0.2-1833-g80a4898e-1~bionic) ...
-Preparing to unpack .../65-fish-common_3.0.2-1863-g87e24db5-1~bionic_all.deb ...
-Unpacking fish-common (3.0.2-1863-g87e24db5-1~bionic) over (3.0.2-1833-g80a4898e-1~bionic) ...
-Setting up pop-upgrade (0.1.0~1573581345~18.04~253a2c1) ...
-+ systemctl --global enable pop-upgrade-notify.timer
-Failed to enable unit, unit pop-upgrade-notify.timer does not exist.
-+ [ configure = configure ]
-+ deb-systemd-helper unmask pop-upgrade.service
-+ deb-systemd-helper --quiet was-enabled pop-upgrade.service
-+ deb-systemd-helper enable pop-upgrade.service
-Created symlink /etc/systemd/system/multi-user.target.wants/pop-upgrade.service → /lib/systemd/system/pop-upgrade.service.
-+ [ configure = configure ]
-+ [ -d /run/systemd/system ]
-+ systemctl --system daemon-reload
-+ deb-systemd-invoke start pop-upgrade-init.service pop-upgrade.service
-pop-upgrade-init.service is a disabled or a static unit, not starting it.
-+ exit 0
-Setting up libqt5core5a:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up libnss-systemd:amd64 (237-3ubuntu10.33) ...
-Setting up libqt5dbus5:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up libqt5network5:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up libnss-myhostname:amd64 (237-3ubuntu10.33) ...
-Setting up systemd-sysv (237-3ubuntu10.33) ...
-Setting up virtualbox-dkms (5.2.34-dfsg-0~ubuntu18.04.1) ...
-Loading new virtualbox-5.2.34 DKMS files...
-Building for 5.3.0-22-generic
-Building initial module for 5.3.0-22-generic
-Done.
-
-vboxdrv:
-Running module version sanity check.
- - Original module
-   - No original module exists within this kernel
- - Installation
-   - Installing to /lib/modules/5.3.0-22-generic/updates/dkms/
-
-vboxnetadp.ko:
-Running module version sanity check.
- - Original module
-   - No original module exists within this kernel
- - Installation
-   - Installing to /lib/modules/5.3.0-22-generic/updates/dkms/
-
-vboxnetflt.ko:
-Running module version sanity check.
- - Original module
-   - No original module exists within this kernel
- - Installation
-   - Installing to /lib/modules/5.3.0-22-generic/updates/dkms/
-
-vboxpci.ko:
-Running module version sanity check.
- - Original module
-   - No original module exists within this kernel
- - Installation
-   - Installing to /lib/modules/5.3.0-22-generic/updates/dkms/
-
-depmod...
-
-DKMS: install completed.
-Setting up yarn (1.19.2-1) ...
-Setting up libqt5test5:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up libnss3:amd64 (2:3.35-2ubuntu2.5) ...
-Setting up libglapi-mesa:amd64 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up libglapi-mesa:i386 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up python3-psutil (5.4.2-1ubuntu0.1) ...
-Setting up libdrm-common (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up libpython3.6-minimal:amd64 (3.6.9-1~18.04) ...
-Setting up libqt5xml5:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up udev (237-3ubuntu10.33) ...
-update-initramfs: deferring update (trigger activated)
-Setting up code (1.40.2-1574694120) ...
-Setting up libqt5sql5:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up libpop-upgrade-gtk (0.1.0~1573581345~18.04~253a2c1) ...
-Setting up libvpx5:amd64 (1.7.0-3ubuntu0.18.04.1) ...
-Setting up libllvm9:amd64 (1:9.0.1~+rc1-1~exp1~oibaf~b) ...
-Setting up libllvm9:i386 (1:9.0.1~+rc1-1~exp1~oibaf~b) ...
-Setting up amd64-microcode (3.20191021.1+really3.20181128.1~ubuntu0.18.04.1) ...
-update-initramfs: deferring update (trigger activated)
-amd64-microcode: microcode will be updated at next boot
-Setting up libpython3.6-stdlib:amd64 (3.6.9-1~18.04) ...
-Setting up libpam-systemd:amd64 (237-3ubuntu10.33) ...
-Setting up libosmesa6:i386 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up libosmesa6:amd64 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up python3.6-minimal (3.6.9-1~18.04) ...
-Setting up gnome-control-center (1:3.28.2-0ubuntu0.18.04.5pop1~1573581610~18.04~640e23a) ...
-Setting up libdrm2:amd64 (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up libdrm2:i386 (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up libqt5sql5-sqlite:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up ubuntu-drivers-common (1:0.5.2.4) ...
-Setting up snapd (2.42.1+18.04) ...
-Installing new version of config file /etc/apparmor.d/usr.lib.snapd.snap-confine.real ...
-Installing new version of config file /etc/xdg/autostart/snap-userd-autostart.desktop ...
-snapd.failure.service is a disabled or a static unit, not starting it.
-snapd.snap-repair.service is a disabled or a static unit, not starting it.
-Setting up libdrm-intel1:amd64 (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up libdrm-intel1:i386 (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up libdrm-radeon1:amd64 (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up libdrm-radeon1:i386 (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up libdrm-nouveau2:amd64 (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up libdrm-nouveau2:i386 (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up libpython3.6:amd64 (3.6.9-1~18.04) ...
-Setting up xserver-xorg-video-intel (2:2.99.917+git1911271930.0867ee~oibaf~b) ...
-Setting up python3.6 (3.6.9-1~18.04) ...
-Setting up libdrm-amdgpu1:amd64 (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up libdrm-amdgpu1:i386 (2.4.100+git1911290630.cd77f1~oibaf~b) ...
-Setting up mesa-vdpau-drivers:amd64 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up libgbm1:amd64 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up python3.6-venv (3.6.9-1~18.04) ...
-Setting up libgl1-mesa-dri:amd64 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up libgl1-mesa-dri:i386 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up libxatracker2:amd64 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up libpython3.6-dev:amd64 (3.6.9-1~18.04) ...
-Setting up virtualbox (5.2.34-dfsg-0~ubuntu18.04.1) ...
-vboxweb.service is a disabled or a static unit not running, not starting it.
-Setting up libqt5gui5:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up mesa-va-drivers:amd64 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up libegl-mesa0:amd64 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up qt5-gtk-platformtheme:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up python3.6-dev (3.6.9-1~18.04) ...
-Setting up libglx-mesa0:amd64 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up libglx-mesa0:i386 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up libqt5widgets5:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up libqt5printsupport5:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up libqt5opengl5:amd64 (5.9.5+dfsg-0ubuntu2.4) ...
-Setting up libgl1-mesa-glx:amd64 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up libgl1-mesa-glx:i386 (20.0~git1911291930.73783e~oibaf~b) ...
-Setting up virtualbox-qt (5.2.34-dfsg-0~ubuntu18.04.1) ...
-Setting up fish-common (3.0.2-1863-g87e24db5-1~bionic) ...
-Setting up fish (3.0.2-1863-g87e24db5-1~bionic) ...
-Processing triggers for libc-bin (2.27-3ubuntu1) ...
-Processing triggers for systemd (237-3ubuntu10.33) ...
-Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
-Processing triggers for shared-mime-info (1.9-2) ...
-Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
-Processing triggers for dbus (1.12.2-1ubuntu1.1) ...
-Processing triggers for hicolor-icon-theme (0.17-2) ...
-Processing triggers for mime-support (3.60ubuntu1) ...
-Processing triggers for ureadahead (0.100.0-21) ...
-Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
-Processing triggers for initramfs-tools (0.130ubuntu3.8pop1) ...
-update-initramfs: Generating /boot/initrd.img-5.3.0-22-generic
-cryptsetup: WARNING: target cryptswap has a random key, skipped
-W: Possible missing firmware /lib/firmware/amdgpu/vega20_ta.bin for module amdgpu
-W: Possible missing firmware /lib/firmware/amdgpu/navi10_mes.bin for module amdgpu
-kernelstub.Config    : INFO     Looking for configuration...
-kernelstub           : INFO     System information: 
-
-    OS:..................Pop!_OS 18.04
-    Root partition:....../dev/sda6
-    Root FS UUID:........cb7f06f7-9f19-4061-816e-82545110092b
-    ESP Path:............/boot/efi
-    ESP Partition:......./dev/sda7
-    ESP Partition #:.....7
-    NVRAM entry #:.......-1
-    Boot Variable #:.....0000
-    Kernel Boot Options:.quiet loglevel=0 systemd.show_status=false splash
-    Kernel Image Path:.../boot/vmlinuz-5.3.0-22-generic
-    Initrd Image Path:.../boot/initrd.img-5.3.0-22-generic
-    Force-overwrite:.....False
-
-kernelstub.Installer : INFO     Copying Kernel into ESP
-kernelstub.Installer : INFO     Copying initrd.img into ESP
-kernelstub.Installer : INFO     Setting up loader.conf configuration
-kernelstub.Installer : INFO     Making entry file for Pop!_OS
-kernelstub.Installer : INFO     Backing up old kernel
-'universe' distribution component is already enabled for all sources.
-Reading package lists...
-Building dependency tree...
-Reading state information...
-build-essential is already the newest version (12.4ubuntu1).
-make is already the newest version (4.1-9.1ubuntu1).
-make set to manually installed.
-python3-setuptools is already the newest version (39.0.1-2).
-guake is already the newest version (3.0.5-1).
-python3-pymysql is already the newest version (0.8.0-1).
-terminator is already the newest version (1.91-1).
-gcc is already the newest version (4:7.4.0-1ubuntu2.3).
-gcc set to manually installed.
-git is already the newest version (1:2.17.1-1ubuntu0.4).
-vim is already the newest version (2:8.0.1453-1ubuntu1.1).
-dkms is already the newest version (2.3-3ubuntu9.7).
-python3-pip is already the newest version (9.0.1-2.3~ubuntu1.18.04.1).
-python3-venv is already the newest version (3.6.7-1~18.04).
-fish is already the newest version (3.0.2-1863-g87e24db5-1~bionic).
-curl is already the newest version (7.58.0-2ubuntu3.8pop1).
-The following NEW packages will be installed:
-  gnome-tweak-tool
-0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 1,848 B of archives.
-After this operation, 12.3 kB of additional disk space will be used.
-Get:1 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 gnome-tweak-tool all 3.28.1-1 [1,848 B]
-Fetched 1,848 B in 1s (1,695 B/s)
-Selecting previously unselected package gnome-tweak-tool.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 340457 files and directories currently installed.)
-Preparing to unpack .../gnome-tweak-tool_3.28.1-1_all.deb ...
-Unpacking gnome-tweak-tool (3.28.1-1) ...
-Setting up gnome-tweak-tool (3.28.1-1) ...
-Ensure prerequisites for "vlc" are available                                                                                                                 /Download snap "vlc" (1049) from channel "stable"                                                                                                             -Download snap "vlc" (1049) from channel "stable"                                                                                                             \Download snap "vlc" (1049) from channel "stable"                                                                                                             |Download snap "vlc" (1049) from channel "stable"                                                                                                             /Download snap "vlc" (1049) from channel "stable"                                                                                                             -Download snap "vlc" (1049) from channel "stable"                                                                                                             \Download snap "vlc" (1049) from channel "stable"                                                                                                             |Download snap "vlc" (1049) from channel "stable"                                                                                                             /Download snap "vlc" (1049) from channel "stable"                                                                                                             -Download snap "vlc" (1049) from channel "stable"                                                                                                             \Download snap "vlc" (1049) from channel "stable"                                                                                                             |Download snap "vlc" (1049) from channel "stable"                                                                                                             /Download snap "vlc" (1049) from channel "stable"                                                                                                             -Download snap "vlc" (1049) from channel "stable"                                                                                                             \Download snap "vlc" (1049) from channel "stable"                                                                                                             |Download snap "vlc" (1049) from channel "stable"                                                                                                             /Download snap "vlc" (1049) from channel "stable"                                                                                                             -Download snap "vlc" (1049) from channel "stable"                                                                                                             \Download snap "vlc" (1049) from channel "stable"                                                                                                             |Download snap "vlc" (1049) from channel "stable"                                                                                                             /Download snap "vlc" (1049) from channel "stable"                                                                                                             -Download snap "vlc" (1049) from channel "stable"                                                                                                             \Download snap "vlc" (1049) from channel "stable"                                                                                                             |Download snap "vlc" (1049) from channel "stable"                                                                                                             /Download snap "vlc" (1049) from channel "stable"                                                                                                             -Download snap "vlc" (1049) from channel "stable"                                                                                                             \Download snap "vlc" (1049) from channel "stable"                                                                                                             |[?25l[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%     0B/s ages![7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%     0B/s ages![7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%     0B/s ages![7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%     0B/s ages![7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%     0B/s ages![7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%     0B/s ages![7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%     0B/s ages![7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%     0B/s ages![7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%     0B/s ages![7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%     0B/s ages![7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  406kB/s 8m43s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  372kB/s 9m30s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  343kB/s 10.3m[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  319kB/s 11.1m[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  298kB/s 11.9m[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  543kB/s 6m30s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  511kB/s 6m55s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  483kB/s 7m19s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  457kB/s 7m43s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  434kB/s 8m08s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  414kB/s 8m32s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  395kB/s 8m57s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             0%  377kB/s 9m22s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             1%  537kB/s 6m34s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             1%  515kB/s 6m50s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             1%  495kB/s 7m07s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             1%  477kB/s 7m23s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             1%  460kB/s 7m40s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             1%  444kB/s 7m57s[7m[0mDownload snap "vlc" (1049) from channel "stable"                                                                                             1%  429kB/s 8m13s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  550kB/s 6m23s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  533kB/s 6m36s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  517kB/s 6m48s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  501kB/s 7m01s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  487kB/s 7m13s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  473kB/s 7m26s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  460kB/s 7m38s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  563kB/s 6m14s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  548kB/s 6m24s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  535kB/s 6m34s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  521kB/s 6m44s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  509kB/s 6m54s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  497kB/s 7m04s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  581kB/s 6m02s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  568kB/s 6m10s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  556kB/s 6m18s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  544kB/s 6m26s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  532kB/s 6m35s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  521kB/s 6m43s[7mD[0mownload snap "vlc" (1049) from channel "stable"                                                                                             1%  511kB/s 6m51s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             1%  583kB/s 5m60s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             1%  572kB/s 6m07s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             1%  561kB/s 6m14s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             1%  550kB/s 6m21s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             1%  540kB/s 6m28s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             1%  531kB/s 6m35s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             1%  521kB/s 6m42s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             1%  512kB/s 6m49s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  577kB/s 6m02s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  568kB/s 6m08s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  559kB/s 6m15s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  550kB/s 6m21s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  541kB/s 6m27s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  598kB/s 5m49s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  589kB/s 5m55s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  580kB/s 5m60s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  572kB/s 6m05s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  563kB/s 6m11s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  555kB/s 6m16s[7mDo[0mwnload snap "vlc" (1049) from channel "stable"                                                                                             2%  547kB/s 6m22s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  599kB/s 5m48s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  590kB/s 5m53s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  582kB/s 5m58s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  574kB/s 6m03s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  567kB/s 6m08s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  617kB/s 5m37s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  608kB/s 5m42s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  601kB/s 5m46s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  593kB/s 5m51s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  586kB/s 5m55s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  578kB/s 5m60s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  571kB/s 6m04s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  615kB/s 5m38s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  607kB/s 5m42s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  600kB/s 5m46s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  593kB/s 5m50s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  586kB/s 5m54s[7mDow[0mnload snap "vlc" (1049) from channel "stable"                                                                                             2%  580kB/s 5m58s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  620kB/s 5m34s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  613kB/s 5m38s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  606kB/s 5m42s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  600kB/s 5m45s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  593kB/s 5m49s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  633kB/s 5m26s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  626kB/s 5m30s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  620kB/s 5m33s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  613kB/s 5m37s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  607kB/s 5m40s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  643kB/s 5m21s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  637kB/s 5m24s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  630kB/s 5m27s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  624kB/s 5m30s[7mDown[0mload snap "vlc" (1049) from channel "stable"                                                                                             3%  618kB/s 5m34s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             3%  653kB/s 5m15s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             3%  646kB/s 5m18s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             3%  640kB/s 5m21s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             3%  634kB/s 5m25s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             3%  667kB/s 5m08s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             3%  661kB/s 5m11s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             3%  655kB/s 5m14s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             4%  687kB/s 4m58s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             4%  680kB/s 5m01s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             4%  674kB/s 5m04s[7mDownl[0moad snap "vlc" (1049) from channel "stable"                                                                                             4%  668kB/s 5m07s[7mDownlo[0mad snap "vlc" (1049) from channel "stable"                                                                                             4%  699kB/s 4m53s[7mDownlo[0mad snap "vlc" (1049) from channel "stable"                                                                                             4%  693kB/s 4m55s[7mDownlo[0mad snap "vlc" (1049) from channel "stable"                                                                                             4%  687kB/s 4m58s[7mDownlo[0mad snap "vlc" (1049) from channel "stable"                                                                                             4%  717kB/s 4m45s[7mDownlo[0mad snap "vlc" (1049) from channel "stable"                                                                                             4%  711kB/s 4m47s[7mDownlo[0mad snap "vlc" (1049) from channel "stable"                                                                                             4%  705kB/s 4m50s[7mDownlo[0mad snap "vlc" (1049) from channel "stable"                                                                                             4%  735kB/s 4m37s[7mDownlo[0mad snap "vlc" (1049) from channel "stable"                                                                                             4%  729kB/s 4m40s[7mDownlo[0mad snap "vlc" (1049) from channel "stable"                                                                                             4%  723kB/s 4m42s[7mDownloa[0md snap "vlc" (1049) from channel "stable"                                                                                             4%  752kB/s 4m30s[7mDownloa[0md snap "vlc" (1049) from channel "stable"                                                                                             4%  746kB/s 4m32s[7mDownloa[0md snap "vlc" (1049) from channel "stable"                                                                                             5%  773kB/s 4m22s[7mDownloa[0md snap "vlc" (1049) from channel "stable"                                                                                             5%  767kB/s 4m24s[7mDownloa[0md snap "vlc" (1049) from channel "stable"                                                                                             5%  761kB/s 4m26s[7mDownloa[0md snap "vlc" (1049) from channel "stable"                                                                                             5%  755kB/s 4m29s[7mDownloa[0md snap "vlc" (1049) from channel "stable"                                                                                             5%  749kB/s 4m31s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             5%  807kB/s 4m10s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             5%  801kB/s 4m12s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             5%  795kB/s 4m14s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             5%  789kB/s 4m16s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             5%  814kB/s 4m07s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             5%  808kB/s 4m09s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             5%  802kB/s 4m11s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             5%  797kB/s 4m13s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             5%  821kB/s 4m05s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             5%  815kB/s 4m07s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             6%  839kB/s 3m59s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             6%  833kB/s 4m01s[7mDownload[0m snap "vlc" (1049) from channel "stable"                                                                                             6%  827kB/s 4m03s[7mDownload [0msnap "vlc" (1049) from channel "stable"                                                                                             6%  850kB/s 3m55s[7mDownload [0msnap "vlc" (1049) from channel "stable"                                                                                             6%  845kB/s 3m57s[7mDownload [0msnap "vlc" (1049) from channel "stable"                                                                                             6%  868kB/s 3m50s[7mDownload [0msnap "vlc" (1049) from channel "stable"                                                                                             6%  863kB/s 3m52s[7mDownload [0msnap "vlc" (1049) from channel "stable"                                                                                             6%  857kB/s 3m53s[7mDownload [0msnap "vlc" (1049) from channel "stable"                                                                                             6%  879kB/s 3m47s[7mDownload [0msnap "vlc" (1049) from channel "stable"                                                                                             6%  873kB/s 3m48s[7mDownload [0msnap "vlc" (1049) from channel "stable"                                                                                             6%  867kB/s 3m50s[7mDownload s[0mnap "vlc" (1049) from channel "stable"                                                                                             6%  889kB/s 3m44s[7mDownload s[0mnap "vlc" (1049) from channel "stable"                                                                                             6%  883kB/s 3m45s[7mDownload s[0mnap "vlc" (1049) from channel "stable"                                                                                             7%  905kB/s 3m39s[7mDownload s[0mnap "vlc" (1049) from channel "stable"                                                                                             7%  899kB/s 3m41s[7mDownload s[0mnap "vlc" (1049) from channel "stable"                                                                                             7%  893kB/s 3m42s[7mDownload s[0mnap "vlc" (1049) from channel "stable"                                                                                             7%  914kB/s 3m37s[7mDownload s[0mnap "vlc" (1049) from channel "stable"                                                                                             7%  908kB/s 3m38s[7mDownload sn[0map "vlc" (1049) from channel "stable"                                                                                             7%  929kB/s 3m33s[7mDownload sn[0map "vlc" (1049) from channel "stable"                                                                                             7%  923kB/s 3m34s[7mDownload sn[0map "vlc" (1049) from channel "stable"                                                                                             7%  917kB/s 3m36s[7mDownload sn[0map "vlc" (1049) from channel "stable"                                                                                             7%  937kB/s 3m30s[7mDownload sn[0map "vlc" (1049) from channel "stable"                                                                                             7%  931kB/s 3m32s[7mDownload sn[0map "vlc" (1049) from channel "stable"                                                                                             7%  952kB/s 3m27s[7mDownload sn[0map "vlc" (1049) from channel "stable"                                                                                             7%  946kB/s 3m28s[7mDownload sn[0map "vlc" (1049) from channel "stable"                                                                                             7%  941kB/s 3m29s[7mDownload sna[0mp "vlc" (1049) from channel "stable"                                                                                             8%  961kB/s 3m24s[7mDownload sna[0mp "vlc" (1049) from channel "stable"                                                                                             8%  955kB/s 3m26s[7mDownload sna[0mp "vlc" (1049) from channel "stable"                                                                                             8%  974kB/s 3m21s[7mDownload sna[0mp "vlc" (1049) from channel "stable"                                                                                             8%  969kB/s 3m22s[7mDownload sna[0mp "vlc" (1049) from channel "stable"                                                                                             8%  987kB/s 3m18s[7mDownload sna[0mp "vlc" (1049) from channel "stable"                                                                                             8%  982kB/s 3m19s[7mDownload sna[0mp "vlc" (1049) from channel "stable"                                                                                             8%  976kB/s 3m20s[7mDownload snap[0m "vlc" (1049) from channel "stable"                                                                                             8%  994kB/s 3m16s[7mDownload snap[0m "vlc" (1049) from channel "stable"                                                                                             8%  989kB/s 3m17s[7mDownload snap[0m "vlc" (1049) from channel "stable"                                                                                             8% 1.01MB/s 3m13s[7mDownload snap[0m "vlc" (1049) from channel "stable"                                                                                             8% 1.00MB/s 3m14s[7mDownload snap[0m "vlc" (1049) from channel "stable"                                                                                             8%  995kB/s 3m16s[7mDownload snap[0m "vlc" (1049) from channel "stable"                                                                                             9% 1.01MB/s 3m12s[7mDownload snap[0m "vlc" (1049) from channel "stable"                                                                                             9% 1.01MB/s 3m13s[7mDownload snap [0m"vlc" (1049) from channel "stable"                                                                                             9% 1.02MB/s 3m09s[7mDownload snap [0m"vlc" (1049) from channel "stable"                                                                                             9% 1.02MB/s 3m10sGet:1 file:/var/opt/amdgpu-pro-local ./ InRelease
-Ign:1 file:/var/opt/amdgpu-pro-local ./ InRelease
-Get:2 file:/var/opt/amdgpu-pro-local ./ Release [816 B]
-Get:2 file:/var/opt/amdgpu-pro-local ./ Release [816 B]
-Get:3 file:/var/opt/amdgpu-pro-local ./ Release.gpg
-Ign:3 file:/var/opt/amdgpu-pro-local ./ Release.gpg
-Hit:4 http://ppa.launchpad.net/daniel-marynicz/filemanager-actions/ubuntu bionic InRelease
-Hit:5 http://us.archive.ubuntu.com/ubuntu bionic InRelease
-Hit:6 https://dl.yarnpkg.com/debian stable InRelease
-Ign:7 http://dl.google.com/linux/chrome/deb stable InRelease
-Hit:8 http://ppa.launchpad.net/fish-shell/nightly-master/ubuntu bionic InRelease
-Hit:9 http://linux.teamviewer.com/deb stable InRelease
-Hit:10 https://deb.nodesource.com/node_8.x bionic InRelease
-Hit:11 http://apt.pop-os.org/proprietary bionic InRelease
-Hit:12 http://packages.microsoft.com/repos/vscode stable InRelease
-Get:13 http://us.archive.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
-Hit:14 http://repository.spotify.com stable InRelease
-Hit:15 http://dl.google.com/linux/chrome/deb stable Release
-Hit:16 https://download.sublimetext.com apt/stable/ InRelease
-Hit:17 http://ppa.launchpad.net/noobslab/apps/ubuntu bionic InRelease
-Hit:20 http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu bionic InRelease
-Hit:21 https://repo.skype.com/deb stable InRelease
-Get:22 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
-Hit:23 http://ppa.launchpad.net/persepolis/ppa/ubuntu bionic InRelease
-Hit:24 http://ppa.launchpad.net/system76/pop/ubuntu bionic InRelease
-Get:25 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
-Get:26 http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic InRelease [15.4 kB]
-Hit:19 https://packages.gitlab.com/runner/gitlab-runner/ubuntu bionic InRelease
-Hit:18 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
-Get:28 http://us.archive.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [38.5 kB]
-Get:29 http://us.archive.ubuntu.com/ubuntu bionic-security/main DEP-11 48x48 Icons [17.6 kB]
-Get:30 http://us.archive.ubuntu.com/ubuntu bionic-security/main DEP-11 64x64 Icons [41.5 kB]
-Get:31 http://us.archive.ubuntu.com/ubuntu bionic-security/main DEP-11 128x128 Icons [97.7 kB]
-Get:32 http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic/main i386 Packages [1,956 B]
-Get:33 http://us.archive.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [42.1 kB]
-Get:34 http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic/main amd64 Packages [1,952 B]
-Get:35 http://us.archive.ubuntu.com/ubuntu bionic-security/universe DEP-11 48x48 Icons [16.4 kB]
-Get:36 http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic/main Translation-en [864 B]
-Get:37 http://us.archive.ubuntu.com/ubuntu bionic-security/universe DEP-11 64x64 Icons [116 kB]
-Get:38 http://us.archive.ubuntu.com/ubuntu bionic-security/universe DEP-11 128x128 Icons [181 kB]
-Get:39 http://us.archive.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
-Get:40 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [295 kB]
-Get:41 http://us.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [73.8 kB]
-Get:42 http://us.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [143 kB]
-Get:43 http://us.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 128x128 Icons [355 kB]
-Get:44 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [264 kB]
-Get:45 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [205 kB]
-Get:46 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [457 kB]
-Get:47 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 128x128 Icons [984 kB]
-Get:48 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2,468 B]
-Get:49 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [7,976 B]
-Fetched 3,613 kB in 15s (244 kB/s)
-Reading package lists...
-Reading package lists...
-Reading package lists...
-Building dependency tree...
-Reading state information...
-neofetch is already the newest version (3.4.0-1).
-The following NEW packages will be installed:
-  timeshift
-0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 669 kB of archives.
-After this operation, 3,242 kB of additional disk space will be used.
-Do you want to continue? [Y/n] Get:1 http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic/main amd64 timeshift amd64 19.08.1-0~201908111351~ubuntu18.04.1 [669 kB]
-Fetched 669 kB in 2s (330 kB/s)
-Selecting previously unselected package timeshift.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 340460 files and directories currently installed.)
-Preparing to unpack .../timeshift_19.08.1-0~201908111351~ubuntu18.04.1_amd64.deb ...
-Unpacking timeshift (19.08.1-0~201908111351~ubuntu18.04.1) ...
-Setting up timeshift (19.08.1-0~201908111351~ubuntu18.04.1) ...
-Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
-Processing triggers for hicolor-icon-theme (0.17-2) ...
-Processing triggers for mime-support (3.60ubuntu1) ...
-Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
-Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
-(Reading database ... 340550 files and directories currently installed.)
-Preparing to unpack google-chrome-stable_current_amd64.deb ...
-Unpacking google-chrome-stable (78.0.3904.108-1) over (78.0.3904.108-1) ...
-Setting up google-chrome-stable (78.0.3904.108-1) ...
-Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
-Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
-Processing triggers for mime-support (3.60ubuntu1) ...
-Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
