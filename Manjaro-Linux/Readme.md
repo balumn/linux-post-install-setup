@@ -9,7 +9,7 @@ Run the bash script 'manjaro.sh'
 	bash manjaro.sh 
 
 
-## List of applications which will be installed
+## List of applications which can be installed
 
 1. vlc
 2. gcc
