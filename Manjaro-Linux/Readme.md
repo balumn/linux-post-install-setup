@@ -4,27 +4,32 @@
 Manjaro is based on arch and uses pacman as the default package manager.
 
 #### Running the script 
-Run the bash script 'manjaro.sh'
+Run 'manjaro.sh'
 
-	bash manjaro.sh 
+	sh manjaro.sh 
 
 
-## List of applications which can be installed
+## List of applications that can be installed
 
 1. vlc
 2. gcc
 3. tilda
-4. vim
-5. code (VS Code)
-6. ark
-7. git
-8. gparted
-9. redshift
-10. qbittorrent
-11. albert
-12. sublime-text-3
-13. stacer
-14. curl
-15. make
-16. neofetch
+4. dolphin
+5. terminator
+6. kitty
+7. gnome-terminal
+8. konsole
+9. vim
+10. code (VS Code)
+11. ark
+12. git
+13. gparted
+14. redshift
+15. qbittorrent
+16. albert
+17. sublime-text-3
+18. stacer
+19. curl
+20. make
+21. neofetch
 
