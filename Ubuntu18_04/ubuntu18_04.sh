@@ -7,7 +7,7 @@ apt install -y gnome-tweak-tool gcc dkms build-essential vim curl make guake ter
 snap install vlc
 snap remove vscode
 snap install code --classic
-snap install shotcut
+snap install spotify
 snap install android-studio --classic
 snap install slack
 snap install brave
