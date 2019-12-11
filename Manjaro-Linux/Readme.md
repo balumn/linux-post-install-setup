@@ -28,3 +28,4 @@ Run the bash script 'manjaro.sh'
 15. make
 16. neofetch
 
+
