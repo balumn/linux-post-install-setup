@@ -2,80 +2,47 @@
 
 cd /tmp/
 echo -e " Install essential applications"
-echo " Enter password at the prompt below to continue (ctrl+c to cancel)"
 
-#These apps will be installed 
-sudo pacman -Syu
-sudo pacman -S vlc gcc tilda code vim curl make git neofetch ark gparted redshift qbittorrent albert 
+# Personalize according to your taste or install these solid defaults.
+# You can also add more stuff like your favorite shell.
 
-#Choose Terminal  
-echo -e "\n Choose your Terminal Emulator"
-echo " 1. Terminator"
-echo " 2. Konsole"
-echo " 3. Gnome Terminal"
-echo " 4. Kitty"
-echo " (press n to skip)"
-read option 
+terminal=terminator 
+fileManager=dolphin
+quickLauncher=albert
+torrentClient=qbittorrent
+textEditor=code
+dropDownTerminal=tilda
+imageEditor=gimp
+backupTool=timeshift
+mediaPlayer=vlc
+taskManager=htop
+screenshot=flameshot
+audioEditor=audacity
 
-case $option in 
-	1) sudo pacman -S terminator;;
-	2) sudo pacman -S konsole;;
-	3) sudo pacman -S gnome-terminal;;
-	4) sudo pacman -S kitty;;
-	"n") break ;;
-	*) echo "Invalid choice";;
-esac
+# Upgrade the system and install packages
+sudo pacman -Syu --noconfirm
+sudo pacman -S --noconfirm gcc vim curl make git neofetch ark gparted redshift
 
-#Dolphin 
-echo -e "\n Install DOLPHIN - KDE File Manager"
-echo " y - continue / - n to skip this installation"
-read option
+sudo pacman -S --noconfirm $terminal $fileManager $quickLauncher $torrentClient $textEditor $dropDownTerminal $imageEditor $backupTool $mediaPlayer $taskManager $screenshot $audioEditor
 
-if [[ "$option" = "n" || "$option" = "N" ]]
-then 
-	break
-else 
-	sudo pacman -S dolphin
-fi
 
-# Stacer
-echo -e "\n Install STACER - Linux System Optimizer and Monitoring Tool "
-echo " y - continue / n - to skip this installation"
-read option
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+#Other Apps : Comment these lines if you dont want to install.
 
-if [[ "$option" = "n" || "$option" = "N" ]]
-then 
-	break
-else 
-	git clone https://aur.archlinux.org/stacer.git
-	cd stacer
-	makepkg -si
-fi
+# STACER - Linux System Optimizer and Monitoring Tool
+git clone https://aur.archlinux.org/stacer.git
+cd stacer
+makepkg -si
 
-#Sublime Text Stable
-echo -e "\n Install SUBLIME-TEXT - A sophisticated text editor for code, markup and prose "
-echo " y - continue / n - to skip this installation"
-read option
+# Sublime Text Stable
+echo -e "\n Installing SUBLIME-TEXT - A sophisticated text editor for code, markup and prose "
+curl -O https://download.sublimetext.com/sublimehq-pub.gpg && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
+echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable/x86_64" | sudo tee -a /etc/pacman.conf
+sudo pacman -Syu --noconfirm sublime-text
 
-if [[ "$option" = "n" || "$option" = "N" ]]
-then 
-	break
-else	
-	curl -O https://download.sublimetext.com/sublimehq-pub.gpg && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
-	echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable/x86_64" | sudo tee -a /etc/pacman.conf
-	sudo pacman -Syu sublime-text
-fi
+-----------------------------------------------------------------
+-----------------------------------------------------------------
 
-#Gimp 
-echo -e "\n Install GIMP - The Free & Open Source Image Editor"
-echo " y - continue / n - to skip this installation"
-read option
-
-if [[ "$option" = "n" || "$option" = "N" ]]
-then 
-	break
-else 
-	sudo pacman -S gimp
-fi
-
-echo -e "\n Blessed are those who assign copyright to the FSF, for they will inherit the Kingdom of GNU(tm)"
+# Removing unused packages (orphans)
+sudo pacman -Rns $(pacman -Qtdq)
