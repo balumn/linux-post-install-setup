@@ -3,34 +3,9 @@
 ## Pacman
 Manjaro is based on arch and uses pacman as the default package manager.
 
-#### Running the script 
-Run 'manjaro.sh'
+#### Personalize the script with your favorite packages 
 
-	sh manjaro.sh 
+#### Run the script 
+Run 'manjaro.sh' with sudo (pacman cannot install packages without root privileges)
 
-
-## List of applications that can be installed
-
-1. vlc
-2. gcc
-3. tilda
-4. dolphin
-5. terminator
-6. kitty
-7. gnome-terminal
-8. konsole
-9. vim
-10. code (VS Code)
-11. ark
-12. git
-13. gparted
-14. redshift
-15. qbittorrent
-16. albert
-17. sublime-text-3
-18. stacer
-19. curl
-20. make
-21. neofetch
-
-
+	sudo sh manjaro.sh 
