@@ -3,7 +3,7 @@ apt update -y && apt upgrade -y
 add-apt-repository universe -y
 
 # essential tools
-apt install -y gnome-tweak-tool gcc dkms build-essential vim curl make guake terminator python3-setuptools python3-pymysql python3-pip python3-venv git fish tee neofetch mysql-workbench
+apt install -y gnome-tweak-tool gcc dkms build-essential vim curl make guake terminator python3-setuptools python3-pymysql python3-pip python3-venv git fish neofetch mysql-workbench
 snap install vlc
 snap remove vscode
 snap install code --classic
@@ -13,10 +13,6 @@ snap install slack
 snap install brave
 snap install robo3t-snap
 
-# configuring fish
-chsh -s /usr/bin/fish
-curl -L https://get.oh-my.fish | fish
-omf install godfather
 
 # configuring git
 git config --global user.email "balumn@ieee.org"
